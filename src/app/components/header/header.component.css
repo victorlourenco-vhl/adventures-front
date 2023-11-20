@@ -31,6 +31,12 @@ li {
   list-style-type: none;
 }
 
+#compartilhar {
+  border: 1px solid #14ade0;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
 a:hover h2 {
   transition: 0.4s;
   color: #14ade0;
