@@ -1,1 +1,15 @@
-<p>new-post works!</p>
+<form action="">
+    <div class="form-group">
+        <label for="title">Título: </label>
+        <input type="text" placeholder="Coloque um título" required>
+    </div>
+    <div class="form-group">
+        <label for="description">Descrição: </label>
+        <input type="text" placeholder="Compartilhe sua aventura!" required>
+    </div>
+    <div class="form-group">
+        <label for="image">Upload: </label>
+        <input type="file" required>
+    </div>
+    <input type="submit" value="{{ btnText }}">
+</form>
