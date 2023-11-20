@@ -1,3 +1,10 @@
 h2 {
     margin: 30px;
+    text-align: center;
+    margin: 2.3em;
+    font-size: 1.8em;
+}
+
+h2 span {
+    color: #14ade0;
 }
